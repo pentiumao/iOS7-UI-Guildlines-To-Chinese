@@ -1,13 +1,13 @@
-##Bars
+###Bars
 
 #### 状态栏(The Status Bar)
 状态栏用来展示设备以及当前环境的重要信息。
 
-默认状态栏 | 浅色状态栏
+默认状态栏 | 浅色内容状态栏
 :-----------:  | :-----------: 
 ![status bar](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/status_bar_default_2x.png)  | ![status bar](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/status_bar_light_2x.png)
  
-你可以为整个应用全局设置状态栏的样式也可以为每个View Controller单独设置。想获取更多信息，请查阅[UIApplication Class Reference](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006728)来了解*UIStatusBarStyle*常量以及查阅[UIViewController Class Reference](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006926)来了解*preferredStatusBarStyle*属性。
+你可以为整个应用全局设置状态栏的样式也可以为每个View Controller单独设置。想获取更多信息，请查阅[UIApplication Class Reference](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006728)来了解 *UIStatusBarStyle* 常量以及查阅[UIViewController Class Reference](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006926)来了解 *preferredStatusBarStyle* 属性。
 
 ##### 外观和行为(Appearance and Behavior)
 
@@ -15,17 +15,17 @@
 
 ##### 指导(Guidelines)
 
-Although you don’t use the status bar in the same way that you use other UI elements, it’s important to understand its function in your app.
+尽管状态栏并不像其它控件一样使用频繁，但是明白它在你的应用中的作用也是非常重要的。
 
-**Think twice before hiding the status bar**. Because the status bar is transparent, it’s not usually necessary to hide it. Permanently hiding the status bar means that users must switch away from your app to get the time or find out whether they have a Wi-Fi connection.
+* **轻易不要隐藏状态栏。** 因为状态栏是透明的，所以通常没有必要隐藏它。一旦它被隐藏意味着用户如果要看时间或者查看Wi-Fi状态必须跳出你的应用。
 
-**Consider hiding the status bar—and all other app UI—while people are actively viewing full-screen media**. If you do this, be sure to allow people to retrieve the status bar and appropriate app UI with a single tap. Unless you have a very compelling reason to do so, it’s best to avoid defining a custom gesture to redisplay the status bar because users are unlikely to discover such a gesture or remember it.
+* **如果用户在全屏观看视频或浏览其它多媒体时应该隐藏状态栏和其它所有控件。** 如果选择如此，需要保证用户能够通过轻点屏幕来呼出状态栏或者相应的控件。除非有特殊情况，应尽量避免重新定义其它手势来达到此目的，因为用户很难发现并记住它。
 
-**Don’t create a custom status bar**. Users depend on the consistency of the system-provided status bar. Although you might hide the status bar in your app, it’s not appropriate to create custom UI that takes its place.
+* **不要创建自定义的状态栏。** 用户依赖系统提供的状态栏的一致性。尽管你可能在应用中隐藏它，但是创建自定义的状态栏是不被推荐的。
 
-**Choose a status bar content color that coordinates with your app**. The default appearance displays dark content, which looks good on top of light-colored app content. The light status bar content looks good on top of dark-colored app content.
+* **给状态栏设置一个适合你应用的内容颜色。** 默认显示黑色内容的状态栏和浅色内容的应用比较搭配。而浅色内容的则比较适合深色内容的应用。
 
-**As much as possible, avoid putting distracting content behind the status bar**. In particular, you don’t want to imply that users should tap the status bar to access content or activate controls in your app.
+* **尽可能不要在状态栏上放置无用的内容。** 特别是，不要试图让用户通过点击状态栏获取内容或者激活应用的控件。
 
-**When appropriate, display the network activity indicator**. The network activity indicator can appear in the status bar to show users that lengthy network access is occurring. To learn how to implement this indicator in your code, see Network Activity Indicator.
+* **在适当的情况下显示网络活动指示器。** 网络活动指示器可以告诉用户漫长的网络访问正在进行中。想了解如何实现，请查阅[Network Activity Indicator](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW44)。
 
