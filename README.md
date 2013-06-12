@@ -1,4 +1,4 @@
-iOS7-Guildlines-To-Chinese
+iOS7指导手册汉化
 ==========================
 
-翻译iOS7指导手册
+翻译iOS7指导手册。
