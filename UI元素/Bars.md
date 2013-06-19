@@ -1,18 +1,56 @@
+<article class="chapter">
+  <a name="//apple_ref/doc/uid/TP40006556-CH12-SW1"></a>
+  <a name="//apple_ref/doc/uid/TP40006556-CH12"></a>
+
 ## Bars
+
+<section id="mini_toc">
+	<div id="mini_toc_button">
 
 On This Page
 
-* 	The Status Bar
-* 	[Navigation Bar
-* 	Toolbar
-* 	Toolbar and Navigation Bar Buttons
-* 	Tab Bar
-* 	Tab Bar Icons
-* 	Search Bar
-* 	Scope Bar
+  </div>
 
+*   [
+	  				The Status Bar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW2)
 
-<section class="section">
+*   [
+	  				Navigation Bar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW3)
+
+*   [
+	  				Toolbar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW4)
+
+*   [
+	  				Toolbar and Navigation Bar Buttons
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW33)
+
+*   [
+	  				Tab Bar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW52)
+
+*   [
+	  				Tab Bar Icons
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW34)
+
+*   [
+	  				Search Bar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW5)
+
+*   [
+	  				Scope Bar
+	  			](#//apple_ref/doc/uid/TP40006556-CH12-SW8)
+</section>
+
+  	<section class="section">
+  		<div class="important clear">
+  <a name="//apple_ref/doc/uid/TP40006556-CH12-DontLinkElementID_2"></a>
+  
+</div>
+</section> 
+  <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH12-SW2"></a>
 
 ### The Status Bar 

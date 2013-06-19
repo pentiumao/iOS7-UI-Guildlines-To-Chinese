@@ -4,7 +4,7 @@
 
 ## Content Views
 
-    <section id="mini_toc">
+<section id="mini_toc">
 	<div id="mini_toc_button">
 
 On This Page
@@ -64,9 +64,8 @@ On This Page
   An **activity** represents a system-provided or custom service—accessible via an activity view controller—that can act on some specified content.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/activity_2x.png](Art/activity_2x.png)
+	<span class="caption"></span>
+	<img src="../image/UI Elements/Content Views/activity_2x.png" alt="image: ../Art/activity_2x.png" width="81" height="93">
 </figure>
 
   To learn more about defining an activity in your code, see _[UIActivity Class Reference](../../../UIKit/Reference/UIActivity_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40011974)_.
@@ -74,16 +73,15 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW123"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   An **activity** is a customizable object that represents a service that an app can perform while users are in the app. When users tap the Share button, a set of activities is presented by an activity view controller (to learn how incorporate an activity view controller into your app, see [Activity View Controller](#//apple_ref/doc/uid/TP40006556-CH13-SW121)).
 
   Each activity is represented by an icon and a title that appears below the icon. System-provided activities can use either of two icon styles: a style that looks like an app icon or a style that looks similar to a bar button icon. A third-party activity is always represented by an icon that uses the second style. You can see both icon styles in the activity view controller shown below.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/activity_view_7_2x.png](Art/activity_view_7_2x.png)
+	<span class="caption"></span>
+	<img src="../image/UI Elements/Content Views/activity_view_7_2x.png" alt="image: ../Art/activity_view_7_2x.png" width="320" height="548">
 </figure>
 
   Users initiate a service by tapping its activity icon in the activity view controller. In response, the activity either performs the service immediately or—if the service is complicated—it can request more information before performing the service.
@@ -92,7 +90,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW124"></a>
 
-### Guidelines
+#### Guidelines
 
   Use an activity to give users access to a custom service that your app can perform. Note that iOS provides several built-in services, such as Print, Twitter, Message, and AirPlay. You don’t need to create a custom activity that performs a built-in service.
 
@@ -119,9 +117,8 @@ On This Page
   An **activity view controller** presents a transient view that lists system-provided and custom services that can act on some specified content.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/activity_view_controller_2x.png](Art/activity_view_controller_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/activity_view_controller_2x.png" alt="image: ../Art/activity_view_controller_2x.png" width="320" height="355">
 </figure>
 
   To learn more about defining an activity view controller in your code, see _[UIActivityViewController Class Reference](../../../UIKit/Reference/UIActivityViewController_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40011976)_.
@@ -129,7 +126,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW125"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   An activity view controller displays a configurable list of services that the user can perform on the specified content. Users tap the Share button to reveal the contents of an activity view controller.
 
@@ -141,7 +138,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW126"></a>
 
-### Guidelines
+#### Guidelines
 
   Use an activity view controller to give people a list of services they can perform on content that is specified in some way. The services can be system-provided—such as Copy, Twitter, and Print—or custom. A common way to use an activity view controller is to allow users to post content they’ve selected to a social media account.
 
@@ -171,9 +168,8 @@ You can’t change the order in which the system-provided services are listed in
   A **collection view** manages an ordered collection of items and presents them in a customizable layout.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/collection_view_7_2x.png](Art/collection_view_7_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/collection_view_7_2x.png" alt="image: ../Art/collection_view_7_2x.png" width="320" height="460">
 </figure>
 
   To learn more about defining a collection view in your code, see _[Collection View Programming Guide for iOS](../../../WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012334)_.
@@ -181,11 +177,11 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW129"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A collection view is a customizable scrolling view that displays a set of items your app provides. People use gestures to interact with the items in a collection view and they can modify the collection by inserting, moving, and deleting items. 
 
-  A collection view works with several other objects in your code to define the overall layout and appearance of items. Chief among these objects is the layout object—that is, a standard or custom subclass of `[UICollectionViewLayout](../../../UIKit/Reference/UICollectionViewLayout_class/Reference/Reference.html#//apple_ref/occ/cl/UICollectionViewLayout)`—which specifies the placement and visual attributes of the individual items in the collection. For convenience, UIKit provides the `[UICollectionViewFlowLayout](../../../UIKit/Reference/UICollectionViewFlowLayout_class/Reference/Reference.html#//apple_ref/occ/cl/UICollectionViewFlowLayout)` object, which defines an adjustable linear ordering that can display a grid of items.
+  A collection view works with several other objects in your code to define the overall layout and appearance of items. Chief among these objects is the layout object—that is, a standard or custom subclass of [UICollectionViewLayout](../../../UIKit/Reference/UICollectionViewLayout_class/Reference/Reference.html#//apple_ref/occ/cl/UICollectionViewLayout)—which specifies the placement and visual attributes of the individual items in the collection. For convenience, UIKit provides the [UICollectionViewFlowLayout](../../../UIKit/Reference/UICollectionViewFlowLayout_class/Reference/Reference.html#//apple_ref/occ/cl/UICollectionViewFlowLayout) object, which defines an adjustable linear ordering that can display a grid of items.
 
   Within a collection view, optional supplementary views can visually distinguish subsets of items. A collection view also supports optional decoration views that can provide custom background and other appearances.
 
@@ -197,7 +193,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW130"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a collection view to give users a way to view and manipulate a set of items that don’t need to be displayed in a list. Because a collection view doesn’t enforce a strictly linear layout, it’s particularly well suited to display items that differ in size.
 
@@ -224,7 +220,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW114"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   As you might expect, a custom container view controller doesn’t have any predefined appearance or behavior. When you subclass `UIViewController` to create a custom container view controller object, you decide how many child view controllers it contains and how they should be presented.
 
@@ -232,7 +228,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW115"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a container view controller to present content through which users navigate in a custom way. 
 
@@ -257,7 +253,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW147"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   An image view doesn’t have any predefined appearance and it doesn’t enable user interaction by default. An image view examines properties of both the image and its parent view to determine whether the image should be stretched, scaled, sized to fit, or pinned to a specific location. 
 
@@ -267,7 +263,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW148"></a>
 
-### Guidelines
+#### Guidelines
 
   **As much as possible, ensure that all images in an image view have the same size and use the same scale.** If your images have different sizes, the image view will adjust them separately; if your images use different scale factors, they may render incorrectly.
 
@@ -282,9 +278,8 @@ You can’t change the order in which the system-provided services are listed in
   A **map view** presents geographical data and supports most of the functionality provided by the built-in Maps app (shown below in Photos).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/map_view_photos_7_2x.png](Art/map_view_photos_7_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/map_view_photos_7_2x.png" alt="image: ../Art/map_view_photos_7_2x.png" width="320" height="460">
 </figure>
 
   To learn more about defining a map view in your code, see _[Map Kit Framework Reference](../../../MapKit/Reference/MapKit_Framework_Reference/_index.html#//apple_ref/doc/uid/TP40008210)_.
@@ -292,7 +287,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW135"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A map view displays a geographical area using standard map data, satellite imagery, or a combination of both. A map view can also display annotations—which mark single points—and overlays, which delineate paths or two-dimensional areas. 
 
@@ -302,7 +297,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW136"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a map view to give users an interactive view of a geographical area. If you’re developing a routing app, use a map view to display the user’s route (for more information about creating a routing app, see [Routing](Routing.html#//apple_ref/doc/uid/TP40006556-CH32-SW1)).
 
@@ -327,9 +322,8 @@ You can’t change the order in which the system-provided services are listed in
   A **page view controller** manages multipage content using either a scrolling or page-curl transition style (the page-curl style as it appears in iOS 7 Simulator is shown below).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/page_view_controller_2x.png](Art/page_view_controller_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/page_view_controller_2x.png" alt="image: ../Art/page_view_controller_2x.png" width="318" height="460">
 </figure>
 
   To learn more about defining a page view controller in your code, see [“Page View Controllers”](../../../WindowsViews/Conceptual/ViewControllerCatalog/Chapters/PageViewControllers.html#//apple_ref/doc/uid/TP40011313-CH4).
@@ -337,7 +331,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW142"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A scroll-style page view controller has no default appearance. A page-curl-style page view controller can add the appearance of the inside of a book spine between pairs of pages and—while the user is turning a page—it displays a page-curl appearance.
 
@@ -347,7 +341,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW143"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a page view controller to present content that users access in a linear fashion—such as the text of a story—or content that naturally breaks into chunks—such as a calendar.
 
@@ -364,9 +358,8 @@ You can’t change the order in which the system-provided services are listed in
   A **scroll view** helps people see content that is larger than the scroll view’s boundaries (the image shown below is both taller and wider than the scroll view that contains it).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/scroll_view.png](Art/scroll_view.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/scroll_view.png" alt="image: ../Art/scroll_view.png" width="288" height="414">
 </figure>
 
   To learn more about defining a scroll view in your code, see [“Scroll Views”](../UIKitUICatalog/UIScrollView.html#//apple_ref/doc/uid/TP40012857-UIScrollView).
@@ -374,7 +367,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW139"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   When a scroll view first appears—or when users interact with it—vertical or horizontal scroll indicators flash briefly to show users that there is more content they can reveal. Other than the transient scroll indicators, a scroll view has no predefined appearance.
 
@@ -384,7 +377,7 @@ You can’t change the order in which the system-provided services are listed in
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW140"></a>
 
-### Guidelines
+#### Guidelines
 
   You can use a scroll view to give people access to large views—or to large numbers of views—in a constrained space. Because people are accustomed to using scroll views throughout iOS, make sure the scroll views in your app behave as people expect.
 
@@ -407,9 +400,8 @@ You can’t change the order in which the system-provided services are listed in
   A **table view** presents data in a single-column list of multiple rows. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/plain_table_2x.png](Art/plain_table_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/plain_table_2x.png" alt="image: ../Art/plain_table_2x.png" width="320" height="460">\
 </figure>
 
   To learn more about defining a table view in your code, see _[Table View Programming Guide for iOS](../TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html#//apple_ref/doc/uid/TP40007451)_ and [“Table Views”](../UIKitUICatalog/UITableView.html#//apple_ref/doc/uid/TP40012857-UITableView).
@@ -417,7 +409,7 @@ You can’t change the order in which the system-provided services are listed in
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW64"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A table view displays data in rows that can be divided by section or separated into groups. Users flick or drag to scroll through rows or groups of rows. Users tap a table row to select it and use table view controls to add or remove rows, select multiple rows, see more information about a row item, or reveal another table view. A table row highlights briefly when the user taps a selectable item.
 
@@ -428,17 +420,15 @@ You can’t change the order in which the system-provided services are listed in
   **Plain** tables display rows that can be separated into labeled sections. An optional index can appear vertically along the right edge of the view. A header can appear before the first item in a section and a footer can appear after the last item. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/simple_list_2x.png](Art/simple_list_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/simple_list_2x.png" alt="image: ../Art/simple_list_2x.png" width="320" height="220">
 </figure>
 
   **Grouped** tables display groups of rows. A grouped table view always contains at least one group of list items—one list item per row—and each group always contains at least one item. A group can be preceded by a header and followed by a footer. A grouped table view doesn’t include an index.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/group_table_singles_2x.png](Art/group_table_singles_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/group_table_singles_2x.png" alt="image: ../Art/group_table_singles_2x.png" width="320" height="460">
 </figure>
 
   iOS includes some **table-view elements** that can extend the functionality of table views. Unless noted otherwise, these elements are suitable for use with table views only.
@@ -446,7 +436,7 @@ You can’t change the order in which the system-provided services are listed in
 <div class="tableholder">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW2"></a>
   <table class="graybox" border="0" cellspacing="0" cellpadding="5">
-    <caption class="tablecaption">**Table 34-1**Table-view elements</caption>
+    <caption class="tablecaption"> Table 34-1 Table-view elements</caption>
     <thead>
         <tr>
             <th scope="col" class="TableHeading_TableRow_TableCell">
@@ -469,8 +459,7 @@ You can’t change the order in which the system-provided services are listed in
     <tbody>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/check_7_2x.png](Art/check_7_2x.png)
+<img src="../image/UI Elements/Content Views/check_7_2x.png" width="12" height="12">
 
 </td>
             <td>
@@ -486,8 +475,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/disclosure_indicator_7_2x.png](Art/disclosure_indicator_7_2x.png)
+<img src="../image/UI Elements/Content Views/disclosure_indicator_7_2x.png" width="8" height="12">
 
 </td>
             <td>
@@ -503,8 +491,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/detail_disclosure_7_2x.png](Art/detail_disclosure_7_2x.png)
+<img src="../image/UI Elements/Content Views/detail_disclosure_7_2x.png" width="22" height="22">
 
 </td>
             <td>
@@ -520,8 +507,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/UITableGrabber@2x_2x.png](Art/UITableGrabber@2x_2x.png)
+<img src="../image/UI Elements/Content Views/UITableGrabber@2x_2x.png" width="22" height="8">
 
 </td>
             <td>
@@ -537,8 +523,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/row_insert_7_2x.png](Art/row_insert_7_2x.png)
+<img src="../image/UI Elements/Content Views/row_insert_7_2x.png" width="22" height="24">
 
 </td>
             <td>
@@ -554,8 +539,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/delete_control_7_2x.png](Art/delete_control_7_2x.png)
+<img src="../image/UI Elements/Content Views/delete_control_7_2x.png" width="22" height="24">
 
 </td>
             <td>
@@ -571,8 +555,7 @@ You can’t change the order in which the system-provided services are listed in
         </tr>
         <tr>
             <td scope="row">
-
-  ![image: ../Art/delete_button_7_2x.png](Art/delete_button_7_2x.png)
+<img src="../image/UI Elements/Content Views/delete_button_7_2x.png" width="80" height="50">
 
 </td>
             <td>
@@ -605,42 +588,38 @@ Programmatically, these styles are applied to a table view’s cell, which is an
   </aside>
 </div>
 
-  **Default** (`[UITableViewCellStyleDefault](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleDefault)`). The default cell style includes an optional image in the left end of the row, followed by a left-aligned title.
+  **Default** ([UITableViewCellStyleDefault](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleDefault)). The default cell style includes an optional image in the left end of the row, followed by a left-aligned title.
 
   The default style is good for displaying a list of items that don’t need to be differentiated by supplementary information.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/default_cell_plain_2x.png](Art/default_cell_plain_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/default_cell_plain_2x.png" alt="image: ../Art/default_cell_plain_2x.png" width="320" height="190">
 </figure>
 
-  **Subtitle** (`[UITableViewCellStyleSubtitle](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleSubtitle)`). The subtitle style includes an optional image in the left end of the row, followed by a left-aligned title on one line and a left-aligned subtitle on the line below.
+  **Subtitle** ([UITableViewCellStyleSubtitle](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleSubtitle)). The subtitle style includes an optional image in the left end of the row, followed by a left-aligned title on one line and a left-aligned subtitle on the line below.
 
   The left-alignment of the text labels makes the list easy to scan. This table-cell style works well when list items look similar, because users can use the additional information in the detail text labels to help distinguish items named in the text labels.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/subtitle_cell_plain_2x.png](Art/subtitle_cell_plain_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/subtitle_cell_plain_2x.png" alt="image: ../Art/subtitle_cell_plain_2x.png" width="320" height="190">
 </figure>
 
-  **Value 1** (`[UITableViewCellStyleValue1](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleValue1)`). The value 1 style displays a left-aligned title on the same line with a right-aligned subtitle in a lighter font.
+  **Value 1** ([UITableViewCellStyleValue1](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleValue1)). The value 1 style displays a left-aligned title on the same line with a right-aligned subtitle in a lighter font.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/value1_cell_plain_2x.png](Art/value1_cell_plain_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/value1_cell_plain_2x.png" alt="image: ../Art/value1_cell_plain_2x.png" width="320" height="190">
 </figure>
 
-  **Value 2** (`[UITableViewCellStyleValue2](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleValue2)`). The value 2 style displays a right-aligned title in a blue font, followed on the same line by a left-aligned subtitle in a black font. Images don’t fit well in this style.
+  **Value 2** ([UITableViewCellStyleValue2](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/c/econst/UITableViewCellStyleValue2)). The value 2 style displays a right-aligned title in a blue font, followed on the same line by a left-aligned subtitle in a black font. Images don’t fit well in this style.
 
   In the value 2 layout, the crisp, vertical margin between the text and the detail text helps users focus on the first words of the detail text label. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/value2_cell_plain_2x.png](Art/value2_cell_plain_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/value2_cell_plain_2x.png" alt="image: ../Art/value2_cell_plain_2x.png" width="319" height="176">
 </figure><div class="note">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW67"></a>
   <aside class="aside">
@@ -656,7 +635,7 @@ All four standard table-cell styles also allow the addition of a table-view elem
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW68"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a table view to display large or small amounts of information cleanly and efficiently. For example, you can use a table view to:
 
@@ -699,9 +678,8 @@ All four standard table-cell styles also allow the addition of a table-view elem
   A **text view** accepts and displays multiple lines of text.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/text_view_2x.png](Art/text_view_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/text_view_2x.png" alt="image: ../Art/text_view_2x.png" width="320" height="170">
 </figure>
 
   To learn more about defining a text view in your code, see [“Text Views”](../UIKitUICatalog/UITextView.html#//apple_ref/doc/uid/TP40012857-UITextView).
@@ -709,7 +687,7 @@ All four standard table-cell styles also allow the addition of a table-view elem
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW69"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A text view is a rectangle of any height. A text view supports scrolling when the content is too large to fit inside its bounds. 
 
@@ -719,13 +697,13 @@ All four standard table-cell styles also allow the addition of a table-view elem
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW70"></a>
 
-### Guidelines
+#### Guidelines
 
   You have control over the font, color, and alignment of the text in a text view. The default font is the system font and the default color is black. The default for the alignment property is left (you can change it to center or right). 
 
-  **Always make sure the text is easy to read.** Although you can use attributed strings to combine multiple fonts, colors, and alignments in creative ways, it’s essential to maintain the readability of the text. It’s a good idea to support Dynamic Type and use the `[UIFont](../../../UIKit/Reference/UIFont_Class/Reference/Reference.html#//apple_ref/occ/cl/UIFont)` method `preferredFontForTextStyle` to get the text for display in a text view.
+  **Always make sure the text is easy to read.** Although you can use attributed strings to combine multiple fonts, colors, and alignments in creative ways, it’s essential to maintain the readability of the text. It’s a good idea to support Dynamic Type and use the [UIFont](../../../UIKit/Reference/UIFont_Class/Reference/Reference.html#//apple_ref/occ/cl/UIFont) method preferredFontForTextStyle to get the text for display in a text view.
 
-  **Specify different keyboard types to accommodate different types of content you expect users to enter.** For example, you might want to make it easy for users to enter a URL, a PIN, or a phone number. Note, however, that you have no control over the keyboard’s input method and layout, which are determined by the user’s language settings. iOS provides several different keyboard types, each designed to facilitate a different type of input. To learn about the keyboard types that are available, see the documentation for `[UIKeyboardType](../../../UIKit/Reference/UITextInputTraits_Protocol/Reference/UITextInputTraits.html#//apple_ref/c/tdef/UIKeyboardType)`. To learn more about managing the keyboard in your app, read <!-- a href="" target="_self" -->“Managing the Keyboard”<!-- /a --> in _[iOS App Programming Guide](../../../iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)_.
+  **Specify different keyboard types to accommodate different types of content you expect users to enter.** For example, you might want to make it easy for users to enter a URL, a PIN, or a phone number. Note, however, that you have no control over the keyboard’s input method and layout, which are determined by the user’s language settings. iOS provides several different keyboard types, each designed to facilitate a different type of input. To learn about the keyboard types that are available, see the documentation for [UIKeyboardType](../../../UIKit/Reference/UITextInputTraits_Protocol/Reference/UITextInputTraits.html#//apple_ref/c/tdef/UIKeyboardType). To learn more about managing the keyboard in your app, read <!-- a href="" target="_self" -->“Managing the Keyboard”<!-- /a --> in _[iOS App Programming Guide](../../../iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)_.
 
 </section>
 
@@ -738,9 +716,8 @@ All four standard table-cell styles also allow the addition of a table-view elem
   A **web view** is a region that can display rich HTML content (shown here between the navigation bar and toolbar in Mail on iPhone).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/web_view_2x.png](Art/web_view_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Content Views/web_view_2x.png" alt="image: ../Art/web_view_2x.png" width="320" height="460">
 </figure>
 
   To learn more about defining a web view in your code, see [“Web Views”](../UIKitUICatalog/UIWebView.html#//apple_ref/doc/uid/TP40012857-UIWebView).
@@ -748,7 +725,7 @@ All four standard table-cell styles also allow the addition of a table-view elem
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW71"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   In addition to displaying web content, a web view performs some automatic processing on web content, such as converting a phone number to a phone link.
 
@@ -756,7 +733,7 @@ All four standard table-cell styles also allow the addition of a table-view elem
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH13-SW72"></a>
 
-### Guidelines
+#### Guidelines
 
   If you have a webpage or web app, you might decide to use a web view to implement a simple iOS app that provides a wrapper for your webpage or web app. If you plan to use a web view to access web content that you control, be sure to read _[Safari Web Content Guide](../../../AppleApplications/Reference/SafariWebContent/Introduction/Introduction.html#//apple_ref/doc/uid/TP40002051)_.
 
@@ -765,15 +742,4 @@ All four standard table-cell styles also allow the addition of a table-view elem
 </section>
 
 </section>
-
- 	<section id="next_previous" class="">
-
-[Bars](Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW1)
-
-[Controls](Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW1)
-
-Copyright © 2013 Apple Inc. All rights reserved. Apple Confidential Information. 
-[Terms of Use](http://www.apple.com/legal/terms/site.html)   |  [Privacy Policy](http://www.apple.com/legal/privacy/)  |   [Updated: 2013-06-13](RevisionHistory.html#//apple_ref/doc/uid/TP40006556-CH99-SW1)
-
-  </section>
 </article>

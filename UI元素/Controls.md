@@ -4,7 +4,7 @@
 
 ## Controls
 
-    <section id="mini_toc">
+<section id="mini_toc">
 	<div id="mini_toc_button">
 
 On This Page
@@ -92,9 +92,8 @@ On This Page
   An **activity indicator** shows that a task or process is progressing.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/activity_indicator_2x.png](Art/activity_indicator_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Controls/activity_indicator_2x.png" width="20" height="20">
 </figure>
 
   To learn how to define an activity indicator in your code, see _[UIActivityIndicatorView Class Reference](../../../UIKit/Reference/UIActivityIndicatorView_Class/Reference/UIActivityIndicatorView.html#//apple_ref/doc/uid/TP40006830)_.
@@ -102,7 +101,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW79"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   An activity indicator spins while a task is progressing and disappears when the task completes. Users don’t interact with an activity indicator. 
 
@@ -110,7 +109,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW80"></a>
 
-### Guidelines
+#### Guidelines
 
   Use an activity indicator in a toolbar or a main view to show that processing is occurring, without suggesting when it will finish. 
 
@@ -131,9 +130,8 @@ On This Page
   A **date picker** displays components of date and time, such as hours, minutes, days, and years. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/date_picker_7_2x.png](Art/date_picker_7_2x.png)
+<span class="caption"></span>
+<img src="../image/UI Elements/Controls/date_picker_7_2x.png" alt="image: ../Art/date_picker_7_2x.png" width="320" height="176">
 </figure>
 
   To learn how to define a date picker in your code, see [“Date Pickers”](../UIKitUICatalog/UIDatePicker.html#//apple_ref/doc/uid/TP40012857-UIDatePicker).
@@ -141,7 +139,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW81"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A date picker can have up to four independent wheels, each of which displays values in a single category, such as month or hour. Users flick or drag to spin each wheel until it displays the desired value horizontally in the middle of the picker. The final value comprises the values displayed in each wheel.
 
@@ -161,7 +159,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW82"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a date picker to let users pick—instead of type—a date or time value that consists of multiple parts, such as the day, month, and year. A date picker is easy to use because the values in each part have a relatively small range and users already know what the values are.
 
@@ -180,9 +178,7 @@ On This Page
   A **Contact Add button** lets the user add an existing contact to a text field or other text-based view.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/contact_add_7_2x.png](Art/contact_add_7_2x.png)
+<img src="../image/UI Elements/Controls/contact_add_7_2x.png" alt="image: ../Art/contact_add_7_2x.png" width="36" height="36">
 </figure>
 
   To learn how to define a Contact Add button in your code, see [“Buttons”](../UIKitUICatalog/UIButton.html#//apple_ref/doc/uid/TP40012857-UIButton).
@@ -190,7 +186,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW145"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   When users tap a Contact Add button, a list of their contacts is revealed. When users choose a contact from the list, the list closes and the contact is added to the view that contains the Contact Add button.
 
@@ -198,7 +194,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW146"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a Contact Add button to give users an easy way to access a contact without using the keyboard. For example, users can tap the Contact Add button in the To field of the Mail compose view instead of typing a recipient’s name.
 
@@ -215,9 +211,7 @@ On This Page
   A **Detail Disclosure button** reveals additional details or functionality related to an item (shown here inside a map annotation view).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/detail_disclosure_7_2x.png](Art/detail_disclosure_7_2x.png)
+<img src="../image/UI Elements/Controls/detail_disclosure_7_2x.png" alt="image: ../Art/detail_disclosure_7_2x.png" width="22" height="22">
 </figure>
 
   To learn how to define a Detail Disclosure button in your code, see _[UITableViewCell Class Reference](../../../UIKit/Reference/UITableViewCell_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006938)_ and [“Buttons”](../UIKitUICatalog/UIButton.html#//apple_ref/doc/uid/TP40012857-UIButton).
@@ -225,7 +219,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW83"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   Users tap a Detail Disclosure button to reveal additional information or functionality related to a specific item. The additional details or functionality are revealed in a separate view. 
 
@@ -235,7 +229,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW84"></a>
 
-### Guidelines
+#### Guidelines
 
   Typically, you use a Detail Disclosure button in a table view to give users a way to see more details or functionality related to a list item. However, you can also use this element in other types of views to provide a way to reveal more information or functionality related to an item in that view.
 
@@ -250,9 +244,7 @@ On This Page
   An **Info button** reveals configuration details about an app, sometimes on the back of the current view. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/info_button.jpg](Art/info_button_2x.png)
+<img src="../image/UI Elements/Controls/info_button_2x.png" alt="image: ../Art/info_button.jpg" width="22" height="22">
 </figure>
 
   To learn more about defining an Info button in your code, see [“Buttons”](../UIKitUICatalog/UIButton.html#//apple_ref/doc/uid/TP40012857-UIButton).
@@ -260,7 +252,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW85"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   iOS includes two styles of Info button: a dark-colored button that looks good on light content and a light-colored button that looks good on dark content.
 
@@ -268,7 +260,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW86"></a>
 
-### Guidelines
+#### Guidelines
 
   Use an Info button to reveal configuration details or options about an app. You can use the style of Info button that coordinates best with the UI of your app.
 
@@ -283,9 +275,7 @@ On This Page
   A **label** displays static text.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/labels_7_2x.png](Art/labels_7_2x.png)
+<img src="../image/UI Elements/Controls/labels_7_2x.png" width="257" height="70">
 </figure>
 
   To learn more about defining labels in your code, see _[UILabel Class Reference](../../../UIKit/Reference/UILabel_Class/Reference/UILabel.html#//apple_ref/doc/uid/TP40006797)_.
@@ -293,7 +283,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW87"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A label displays any amount of static text. Users don’t interact with labels except—potentially—to copy the text.
 
@@ -301,11 +291,11 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW88"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a label to name or describe parts of your UI or to provide short messages to the user. A label is best suited to display a relatively small amount of text.
 
-  **Take care to make your labels legible.** It’s best to support Dynamic Type and use the `[UIFont](../../../UIKit/Reference/UIFont_Class/Reference/Reference.html#//apple_ref/occ/cl/UIFont)` method `preferredFontForTextStyle` to get the text for display in a label. If you choose to use custom fonts, don’t sacrifice clarity for fancy lettering or showy colors.
+  **Take care to make your labels legible.** It’s best to support Dynamic Type and use the [UIFont](../../../UIKit/Reference/UIFont_Class/Reference/Reference.html#//apple_ref/occ/cl/UIFont) method `preferredFontForTextStyle` to get the text for display in a label. If you choose to use custom fonts, don’t sacrifice clarity for fancy lettering or showy colors.
 
 </section>
 
@@ -318,17 +308,15 @@ On This Page
   A **network activity indicator** appears in the status bar and shows that network activity is occurring.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/network_activity_indicator_7_2x.png](Art/network_activity_indicator_7_2x.png)
+<img src="../image/UI Elements/Controls/network_activity_indicator_7_2x.png" alt="image: ../Art/network_activity_indicator_7_2x.png" width="17" height="17">
 </figure>
 
-  In your code,  use the `UIApplication` method `[networkActivityIndicatorVisible](../../../UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/occ/instm/UIApplication/isNetworkActivityIndicatorVisible)` to control the indicator’s visibility.
+  In your code,  use the `UIApplication` method [networkActivityIndicatorVisible](../../../UIKit/Reference/UIApplication_Class/Reference/Reference.html#//apple_ref/occ/instm/UIApplication/isNetworkActivityIndicatorVisible) to control the indicator’s visibility.
 
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW89"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   The network activity indicator spins in the status bar while network activity proceeds and it disappears when network activity stops. Users don’t interact with the network activity indicator.
 
@@ -336,7 +324,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW90"></a>
 
-### Guidelines
+#### Guidelines
 
   Display the network activity indicator to provide feedback when your app accesses the network for more than a couple of seconds. If the operation finishes sooner than that, you don’t have to show the network activity indicator, because the indicator would be likely to disappear before users notice its presence.
 
@@ -351,9 +339,7 @@ On This Page
   A **page control** indicates how many views are open and which one is currently visible (shown here in Weather). 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/page_control_weather_7_2x.png](Art/page_control_weather_7_2x.png)
+<img src="../image/UI Elements/Controls/page_control_weather_7_2x.png" alt="image: ../Art/page_control_weather_7_2x.png" width="62" height="22">
 </figure>
 
   To learn more about defining a page control in your code, see [“Page Controls”](../UIKitUICatalog/UIPageControl.html#//apple_ref/doc/uid/TP40012857-UIPageControl).
@@ -361,7 +347,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW91"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A page control displays an indicator dot for each currently open peer view in an app. From left to right, the dots represent the order in which the views were opened (the leftmost dot represents the first view). By default, the dot that represents the currently visible view is opaque and the dots that represent all other views are translucent. Users tap to the left or the right of the current dot to see the previous or next open view.
 
@@ -371,7 +357,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW92"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a page control when each view in your app is a peer of every other view. Don’t use a page control if your app displays information in a hierarchy of views, because a page control doesn’t help users retrace their steps through a specific path.
 
@@ -388,9 +374,7 @@ On This Page
   A **picker** displays a set of values from which a user picks one.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/picker_7_2x.png](Art/picker_7_2x.png)
+<img src="../image/UI Elements/Controls/picker_7_2x.png" alt="image: ../Art/picker_7_2x.png" width="320" height="215">
 </figure>
 
   To learn more about defining a picker in your code, see _[UIPickerView Class Reference](../../../UIKit/Reference/UIPickerView_Class/Reference/UIPickerView.html#//apple_ref/doc/uid/TP40006842)_.
@@ -398,7 +382,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW93"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A picker is a generic version of the date picker. As with a date picker, users spin the wheel (or wheels) of a picker until the value they want appears. The overall size of a picker, including its background, is fixed at the same size as the keyboard on iPhone. (For more information about the date picker, see <!-- a logicalPath='//apple_ref/doc/uid/TP40006556-CH13-SW43' href='' data-id='//apple_ref/doc/uid/TP40006556-CH13-SW43'-->Date Picker<!-- /a -->.)
 
@@ -406,7 +390,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW94"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a picker to make it easy for people to choose from a set of values. It’s often best to use a picker when people are familiar with the entire set of values. This is because many of the values are hidden when the wheel is stationary. If you need to provide a large set of choices that aren’t well known to your users, a picker might not be the appropriate control.
 
@@ -425,9 +409,7 @@ On This Page
   A **progress view** shows the progress of a task or process that has a known duration (shown here in the Mail toolbar). 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/progress_view_7_2x.png](Art/progress_view_7_2x.png)
+<img src="../image/UI Elements/Controls/progress_view_7_2x.png" alt="image: ../Art/progress_view_7_2x.png" width="320" height="38">
 </figure>
 
   To learn more about defining a progress view in your code, see _[UIProgressView Class Reference](../../../UIKit/Reference/UIProgressView_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006782)_.
@@ -435,7 +417,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW95"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   iOS provides two styles of progress view. The appearance of each style is very similar, except for height.
 
@@ -449,7 +431,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW96"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a progress view to give feedback on a task that has a well-defined duration, especially when it’s important to show approximately how long the task will take. When you display a progress view, you tell the user that their task is being performed and you give them enough information to decide if they want to wait until the task is complete or cancel it.
 
@@ -466,9 +448,7 @@ On This Page
   A **refresh control** performs a user-initiated content refresh—typically in a table (shown here above the mailbox list).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/refresh_control_7_2x.png](Art/refresh_control_7_2x.png)
+<img src="../image/UI Elements/Controls/refresh_control_7_2x.png" alt="image: ../Art/refresh_control_7_2x.png" width="320" height="205">
 </figure>
 
   To learn more about defining a refresh control in your code, see _[UIRefreshControl Class Reference](../../../UIKit/Reference/UIRefreshControl_class/Reference/Reference.html#//apple_ref/doc/uid/TP40012250)_.
@@ -476,7 +456,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW132"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   By default, a refresh control is hidden until the user initiates a refresh action by dragging down from the top edge of a table. The refresh control looks similar to an activity indicator.
 
@@ -486,7 +466,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW133"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a refresh control to give users a consistent way to tell a table or other view to update its contents immediately, without waiting for the next automatic update. The following guidelines can help you ensure that your refresh control enhances the user’s experience.
 
@@ -502,7 +482,7 @@ On This Page
 
 ### Rounded Rectangle Button
 
-  The rounded rectangle button has been deprecated in iOS 7. Instead, use the system button—that is, a `[UIButton](../../../UIKit/Reference/UIButton_Class/UIButton/UIButton.html#//apple_ref/occ/cl/UIButton)` of type `UIButtonTypeSystem`. For guidelines, see [System Button](#//apple_ref/doc/uid/TP40006556-CH15-SW10).
+  The rounded rectangle button has been deprecated in iOS 7. Instead, use the system button—that is, a [UIButton](../../../UIKit/Reference/UIButton_Class/UIButton/UIButton.html#//apple_ref/occ/cl/UIButton) of type `UIButtonTypeSystem`. For guidelines, see [System Button](#//apple_ref/doc/uid/TP40006556-CH15-SW10).
 
 </section>
 <section class="section">
@@ -513,9 +493,7 @@ On This Page
   A **segmented control** is a linear set of segments, each of which functions as a button that can display a different view.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/segmented_control.jpg](Art/segmented_control_2x.png)
+<img src="../image/UI Elements/Controls/segmented_control_2x.png" alt="image: ../Art/segmented_control.jpg" width="320" height="48">
 </figure>
 
   To learn more about defining a segmented control in your code, see [“Segmented Controls”](../UIKitUICatalog/UISegmentedControl.html#//apple_ref/doc/uid/TP40012857-UISegmentedControl).
@@ -523,7 +501,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW103"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   The length of a segmented control is determined by the number of its segments; the height of a segmented control is fixed. The width of each segment is proportional, based on the total number of segments. When users tap a segment, the segment displays a selected appearance.
 
@@ -531,7 +509,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW104"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a segmented control to offer closely related, but mutually exclusive choices. 
 
@@ -556,9 +534,7 @@ On This Page
   A **slider** allows users to make adjustments to a value or process throughout a range of allowed values (shown here with custom images on the left and the right). 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/slider.png](Art/slider_2x.png)
+<img src="../image/UI Elements/Controls/slider_2x.png" alt="image: ../Art/slider.png" width="290" height="35">
 </figure>
 
   To learn more about defining a slider in your code, see [“Sliders”](../UIKitUICatalog/UISlider.html#//apple_ref/doc/uid/TP40012857-UISlider).
@@ -566,7 +542,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW105"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A slider consists of a horizontal track and a thumb (a circular control that the user can slide) and can include optional images that convey the meaning of the right and left values. When people drag the thumb along the slider, the value or process is updated continuously and is displayed in the track. 
 
@@ -574,7 +550,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW106"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a slider to give users fine-grained control over values they can choose or the operation of the current process.
 
@@ -601,9 +577,7 @@ On This Page
   A **stepper** increases or decreases a value by a constant amount.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/stepper.jpg](Art/stepper_2x.png)
+<img src="../image/UI Elements/Controls/stepper_2x.png" alt="image: ../Art/stepper.jpg" width="94" height="29">
 </figure>
 
   To learn more about defining a stepper in your code, see [“Steppers”](../UIKitUICatalog/UIStepper.html#//apple_ref/doc/uid/TP40012857-UIStepper).
@@ -611,7 +585,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW117"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A stepper is a two-segment control in which one segment displays a plus symbol and the other segment displays a minus symbol. Users tap a segment to increase or decrease a value. A stepper doesn’t display the value that the user changes.
 
@@ -619,7 +593,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW118"></a>
 
-### Guidelines
+#### Guidelines
 
   In general, use a stepper when users might need to make small adjustments to a value. For example, it makes sense to use a stepper to set the number of copies in the Printer Options action sheet, because users rarely change this value by very much. On the other hand, it wouldn’t make sense to use a stepper to help users choose a page range, because those values can vary a lot.
 
@@ -638,13 +612,9 @@ On This Page
   A **switch** presents two mutually exclusive choices or states (used in table views only).
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/switch_on.jpg](Art/switch_on_2x.png)
+<img src="../image/UI Elements/Controls/switch_on_2x.png" alt="image: ../Art/switch_on.jpg" width="57" height="36">
 </figure><figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/switch_off.jpg](Art/switch_off_2x.png)
+<img src="../image/UI Elements/Controls/switch_off_2x.png" alt="image: ../Art/switch_off.jpg" width="54" height="34">
 </figure>
 
   To learn more about defining a switch in your code, see [“Switches”](../UIKitUICatalog/UISwitch.html#//apple_ref/doc/uid/TP40012857-UISwitch).
@@ -652,7 +622,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW107"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A switch displays the value that is currently in effect; users slide the control to select the other value. Users can also tap the control to switch between choices.
 
@@ -660,7 +630,7 @@ On This Page
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW108"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a switch in a table row to give users two simple, diametrically opposed choices that determine the state of something, such as yes/no or on/off.
 
@@ -677,9 +647,7 @@ On This Page
   A system button performs an app-specific action.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/system_button_2x.png](Art/system_button_2x.png)
+<img src="../image/UI Elements/Controls/system_button_2x.png" alt="image: ../Art/system_button_2x.png" width="43" height="11">
 </figure>
 
   If you need to display a button that includes a bezel, use a button of type `UIButtonTypeCustom` and supply a custom background image.
@@ -689,7 +657,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW97"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   iOS 7 system buttons don’t include a bezel or a background appearance. A system button can contain an icon or a text title, and it can specify a tint color or receive its parent’s color.
 
@@ -708,7 +676,7 @@ In iOS 7, `UIButtonTypeRoundedRect` has been redefined as `UIButtonTypeSystem`. 
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW98"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a system button to initiate an action. When you supply a title for a system button, follow this approach:
 
@@ -729,9 +697,7 @@ In iOS 7, `UIButtonTypeRoundedRect` has been redefined as `UIButtonTypeSystem`. 
   A **text field** accepts a single line of user input (shown here with a purpose description and placeholder text). 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/text_field_2x.png](Art/text_field_2x.png)
+<img src="../image/UI Elements/Controls/text_field_2x.png" alt="image: ../Art/text_field_2x.png" width="288" height="72">
 </figure>
 
   To learn more about defining a text field and customizing it to display images and buttons, see [“Text Fields”](../UIKitUICatalog/UITextField.html#//apple_ref/doc/uid/TP40012857-UITextField).
@@ -739,7 +705,7 @@ In iOS 7, `UIButtonTypeRoundedRect` has been redefined as `UIButtonTypeSystem`. 
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW109"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A text field is a fixed-height field with rounded corners. When users tap a text field a keyboard appears; when users dismiss the keyboard, the text field handles the input in an app-specific way.
 
@@ -747,7 +713,7 @@ In iOS 7, `UIButtonTypeRoundedRect` has been redefined as `UIButtonTypeSystem`. 
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH15-SW110"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a text field to get a small amount of information from the user. Before you decide to use a text field, consider whether there are other controls that might make inputting the information easier, such as a picker or a list. 
 
@@ -757,20 +723,10 @@ In iOS 7, `UIButtonTypeRoundedRect` has been redefined as `UIButtonTypeSystem`. 
 
   **Display a hint in the text field if it helps users understand its purpose,** such as “Name” or “Address.” A text field can display such placeholder text when there is no other text in the field.
 
-  **Specify a keyboard type that’s appropriate for the type of content you expect users to enter.** For example, you might want to make it easy for users to enter a URL, a PIN, or a phone number. iOS provides several different keyboard types, each designed to facilitate a different type of input. To learn about the keyboard types that are available, see the documentation for `[UIKeyboardType](../../../UIKit/Reference/UITextInputTraits_Protocol/Reference/UITextInputTraits.html#//apple_ref/c/tdef/UIKeyboardType)`. To learn more about managing the keyboard in your app, read <!-- a href="" target="_self" -->“Managing the Keyboard”<!-- /a --> in _[iOS App Programming Guide](../../../iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)_. Note that you have no control over the keyboard’s input method and layout, because these attributes are determined by the user’s language settings.
+  **Specify a keyboard type that’s appropriate for the type of content you expect users to enter.** For example, you might want to make it easy for users to enter a URL, a PIN, or a phone number. iOS provides several different keyboard types, each designed to facilitate a different type of input. To learn about the keyboard types that are available, see the documentation for [UIKeyboardType](../../../UIKit/Reference/UITextInputTraits_Protocol/Reference/UITextInputTraits.html#//apple_ref/c/tdef/UIKeyboardType). To learn more about managing the keyboard in your app, read <!-- a href="" target="_self" -->“Managing the Keyboard”<!-- /a --> in _[iOS App Programming Guide](../../../iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)_. Note that you have no control over the keyboard’s input method and layout, because these attributes are determined by the user’s language settings.
 
 </section>
 
 </section>
 
- 	<section id="next_previous" class="">
-
-[Content Views](ContentViews.html#//apple_ref/doc/uid/TP40006556-CH13-SW1)
-
-[Temporary Views](Alerts.html#//apple_ref/doc/uid/TP40006556-CH14-SW1)
-
-Copyright © 2013 Apple Inc. All rights reserved. Apple Confidential Information. 
-[Terms of Use](http://www.apple.com/legal/terms/site.html)   |  [Privacy Policy](http://www.apple.com/legal/privacy/)  |   [Updated: 2013-06-13](RevisionHistory.html#//apple_ref/doc/uid/TP40006556-CH99-SW1)
-
-  </section>
 </article>

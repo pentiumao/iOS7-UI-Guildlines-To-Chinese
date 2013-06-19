@@ -32,9 +32,7 @@ On This Page
   An **alert** gives people important information that affects their use of the app or the device.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/alert_2x.png](Art/alert_2x.png)
+<img src="../image/UI Elements/Temporary Views/alert_2x.png" alt="image: ../Art/alert_2x.png" width="320" height="309">
 </figure>
 
   To learn about using an alert in your code, see _[UIAlertView Class Reference](../../../UIKit/Reference/UIAlertView_Class/UIAlertView/UIAlertView.html#//apple_ref/doc/uid/TP40006802)_.
@@ -42,7 +40,7 @@ On This Page
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW73"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   An alert pops up in the middle of the app screen and floats above its views. The unattached appearance of an alert emphasizes the fact that its arrival is due to some change in the app or the device, not necessarily as the result of the user’s most recent action. Users must dismiss the alert before they can continue using the currently running app.
 
@@ -63,7 +61,7 @@ A local or push notification might use an alert to communicate with users, altho
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW74"></a>
 
-### Guidelines
+#### Guidelines
 
   The infrequency with which alerts appear helps users take them seriously. Be sure to minimize the number of alerts your app displays and ensure that each one offers critical information and useful choices. 
 
@@ -98,9 +96,7 @@ A local or push notification might use an alert to communicate with users, altho
   **Keep the title short enough to display on a single line, if possible.** A long alert title is difficult for people to read quickly, and it might get truncated or force the alert message to scroll.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/alert_title_only_2x.png](Art/alert_title_only_2x.png)
+<img src="../image/UI Elements/Temporary Views/alert_title_only_2x.png" alt="image: ../Art/alert_title_only_2x.png" width="320" height="188">
 </figure>
 
   **Avoid single-word titles that don’t provide any useful information**, such as “Error” or “Warning.”
@@ -122,9 +118,7 @@ A local or push notification might use an alert to communicate with users, altho
   **If you provide an optional alert message, create a short, complete sentence.** Use sentence-style capitalization and appropriate ending punctuation.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/alert_title_with_msg_2x.png](Art/alert_title_with_msg_2x.png)
+<img src="../image/UI Elements/Temporary Views/alert_title_with_msg_2x.png" alt="image: ../Art/alert_title_with_msg_2x.png" width="320" height="223">
 </figure>
 
   **Avoid creating an alert message that is too long.** If possible, keep the message short enough to display on one or two lines. If the message is too long it will scroll, which is not a good user experience.
@@ -160,9 +154,7 @@ A local or push notification might use an alert to communicate with users, altho
   An **action sheet** displays a set of choices related to a task the user initiates (shown below on iPhone). 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/action_sheet_iphone_2x.png](Art/action_sheet_iphone_2x.png)
+<img src="../image/UI Elements/Temporary Views/action_sheet_iphone_2x.png" alt="image: ../Art/action_sheet_iphone_2x.png" width="320" height="315">
 </figure>
 
   To learn how to define an action sheet in your code, see [“Action Sheets”](../UIKitUICatalog/UIActionSheet.html#//apple_ref/doc/uid/TP40012857-UIActionSheet).
@@ -170,7 +162,7 @@ A local or push notification might use an alert to communicate with users, altho
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW75"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   On iPhone, an action sheet always emerges from the bottom of the screen. While an action sheet is visible, iOS dims all other onscreen content.
 
@@ -180,7 +172,7 @@ A local or push notification might use an alert to communicate with users, altho
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW76"></a>
 
-### Guidelines
+#### Guidelines
 
   Use an action sheet to:
 
@@ -193,9 +185,7 @@ A local or push notification might use an alert to communicate with users, altho
   **On both devices, use the red button color if a potentially destructive action can be performed.** Display a red button at the top of the action sheet, because the closer to the top of the action sheet a button is, the more eye-catching it is. And on iPhone, the farther a destructive button is from the bottom of an action sheet, the less likely users are to tap it when they’re aiming for the Home button. 
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/action_sheet_red_button_2x.png](Art/action_sheet_red_button_2x.png)
+<img src="../image/UI Elements/Temporary Views/action_sheet_red_button_2x.png" alt="image: ../Art/action_sheet_red_button_2x.png" width="320" height="113">
 </figure>
 
   **Avoid making users scroll through an action sheet.** If you include too many buttons in an action sheet, users must scroll to see all actions. This is a disconcerting experience for users, because they must spend extra time considering each choice. Also, it can be very difficult for users to scroll without inadvertently tapping a button.
@@ -211,9 +201,7 @@ A local or push notification might use an alert to communicate with users, altho
   A **modal view**—that is, a view presented modally—provides self-contained functionality in the context of the current task or workflow.
 
 <figure class="figure">
-
-	  		<span class="caption"></span>
-	  		![image: ../Art/modal_view_mail_compose_2x.png](Art/modal_view_mail_compose_2x.png)
+<img src="../image/UI Elements/Temporary Views/modal_view_mail_compose_2x.png" alt="image: ../Art/modal_view_mail_compose_2x.png" width="320" height="548">
 </figure>
 
   To learn more about defining a modal view in your code, see _[UIViewController Class Reference](../../../UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/doc/uid/TP40006926)_.
@@ -221,7 +209,7 @@ A local or push notification might use an alert to communicate with users, altho
   <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW77"></a>
 
-### Appearance and Behavior
+#### Appearance and Behavior
 
   A modal view occupies the entire screen, which strengthens the user’s perception of entering a separate, transient mode in which they can accomplish something. On iPad, a modal view might also occupy the entire area of a parent view, such as a popover.
 
@@ -231,7 +219,7 @@ A local or push notification might use an alert to communicate with users, altho
 <section class="section">
   <a name="//apple_ref/doc/uid/TP40006556-CH14-SW78"></a>
 
-### Guidelines
+#### Guidelines
 
   Use a modal view when you need to offer the ability to accomplish a self-contained task related to your app’s primary function. A modal view is especially appropriate for a multistep subtask that requires UI elements that don’t belong in the main app UI all the time. 
 
@@ -250,15 +238,4 @@ A local or push notification might use an alert to communicate with users, altho
 </section>
 
 </section>
-
- 	<section id="next_previous" class="">
-
-[Controls](Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW1)
-
-[Creating Resizable Images](ResizableImages.html#//apple_ref/doc/uid/TP40006556-CH30-SW1)
-
-Copyright © 2013 Apple Inc. All rights reserved. Apple Confidential Information. 
-[Terms of Use](http://www.apple.com/legal/terms/site.html)   |  [Privacy Policy](http://www.apple.com/legal/privacy/)  |   [Updated: 2013-06-13](RevisionHistory.html#//apple_ref/doc/uid/TP40006556-CH99-SW1)
-
-  </section>
 </article>
